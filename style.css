@@ -1,0 +1,44 @@
+body{
+    background-image: url(dpool-wolv-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:absolute;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(153, 9, 9);
+    text-align:center;
+    background-color: black;
+}
+
+h3{
+    color: rgb(236, 23, 23);
+}
+
+p{
+    color: rgb(231, 231, 53);
+}
+
+a{
+  color: orange;
+}
+
+#dpool-shocked{
+  width: 200px;
+  height: 200px;
+}
+
+#dpool-logo{
+  width: 120px;
+  height: 120px;  
+}
+
+#cameopic{
+  width: 240px;
+  height: 180px;
+  display:inline-block;
+  z-index: 2;
+  margin: 20px;
+}
