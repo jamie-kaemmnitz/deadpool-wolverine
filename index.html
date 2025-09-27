@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-    <script src="main.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="java/main.js"></script>
 </head>
 <body>
     <h1>MY DEADPOOL & WOLVERINE REVIEW</h1>
     <div>
-        <p>Welcome to my page I have created to give my review on the recent Deadpool & Wolverine movie. I Hope you enjoy!</p>
+        <p id="p-one">Welcome to my page I have created to give my review on the recent Deadpool & Wolverine movie. I Hope you enjoy!</p>
     </div>
   <section class="intro">
     <h3>Introduction</h3>
@@ -29,46 +29,49 @@
         <br> As expected with a Deadpool film there are alot of Comedy moments and plenty of 'Fourth wall' breaks. There are plenty of returning characters from the first two films as well as many cameo appearences.</p>
     </div>
   </section>
-  <section class="cast">
-    <h3>Cast</h3>
-    <div>
-        <p>Below is a list of some of the cast members of the film</p>
-        <p><em>Click on the names below for more information about the actor</em></p>
-        <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Ryan_Reynolds" target="_blank">Ryan Reynolds (Deadpool)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Hugh_Jackman" target="_blank">Hugh Jackman (Wolverine)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Emma_Corrin" target="_blank">Emma Corrin (Cassandra Nova)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Morena_Baccarin" target="_blank">Morena Baccarin (Vanessa Carlysle)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Rob_Delaney" target="_blank">Rob Delaney (Peter Wisdom)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Leslie_Uggams" target="_blank">Leslie Uggams (Blind Al)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Matthew_Macfadyen" target="_blank">Matthew Macfadyen (Mr. Paradox)</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine#Cast" target="_blank">plus many more</a></li>
-        </ul>
-    </div>
-  </section>
-  <section class="cameos">
-    <h3>Cameo Appearences</h3>
-    <div id="pic-button">
-        <p><strong>SPOILER ALERT!</strong> Click the picture to show cameo appearences</p>
-        <img id="dpool-logo" src="dpool-wolv-logo.jpg">
-        <img id="dpool-shocked" src="dpool-shocked.jpg"/>
-    </div>
-    <div id="cameosapp">
-          <img id="cameopic" src="pyro.jpg">
-          <img id="cameopic" src="sabretooth.jpg">
-          <img id="cameopic" src="juggernaught.jpg">
-          <img id="cameopic" src="azazel.jpg">
-          <img id="cameopic" src="toad.jpg">
-          <img id="cameopic" src="blade.jpg">
-          <img id="cameopic" src="gambit.jpg">
-          <img id="cameopic" src="elektra.jpg">
-          <img id="cameopic" src="x23.jpg">
-          <img id="cameopic" src="humantorch.jpg">
-       
-        <p>There was also some cameo appearences as Deadpool variants which include: Blake Lively as Ladypool, Ryan and Blakes children as Kidpool and Babypool and Paul Mullin <em>(footballer from Wrexham A.F.C)</em> as Welshpool
-        <br> There was also a special appearence from Henry Cavill <em>(who played Superman in the DC Universe)</em> as the Wolverine variant 'Cavillrine'.</p>
-    </div>
-  </section>
+  <div id="cast-cameos">
+    <section class="cast">
+      <h3>Cast</h3>
+      <div id="cast-div">
+          <p>Below is a list of some of the cast members of the film</p>
+          <br>
+          <p><em>Click on the names below for more information about the actor</em></p>
+          <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Ryan_Reynolds" target="_blank">Ryan Reynolds (Deadpool)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Hugh_Jackman" target="_blank">Hugh Jackman (Wolverine)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Emma_Corrin" target="_blank">Emma Corrin (Cassandra Nova)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Morena_Baccarin" target="_blank">Morena Baccarin (Vanessa Carlysle)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rob_Delaney" target="_blank">Rob Delaney (Peter Wisdom)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Leslie_Uggams" target="_blank">Leslie Uggams (Blind Al)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Matthew_Macfadyen" target="_blank">Matthew Macfadyen (Mr. Paradox)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine#Cast" target="_blank">plus many more</a></li>
+          </ul>
+      </div>
+    </section>
+    <section class="cameos">
+      <h3>Cameo Appearences</h3>
+      <div id="pic-button">
+          <p><strong>SPOILER ALERT!</strong> Click the picture to show cameo appearences</p>
+          <img id="dpool-logo" src="images/dpool-wolv-logo.jpg">
+          <img id="dpool-shocked" src="images/dpool-shocked.jpg"/>
+      </div>
+      <div id="cameosapp">
+            <img id="cameopic" src="images/pyro.jpg">
+            <img id="cameopic" src="images/sabretooth.jpg">
+            <img id="cameopic" src="images/juggernaught.jpg">
+            <img id="cameopic" src="images/azazel.jpg">
+            <img id="cameopic" src="images/toad.jpg">
+            <img id="cameopic" src="images/blade.jpg">
+            <img id="cameopic" src="images/gambit.jpg">
+            <img id="cameopic" src="images/elektra.jpg">
+            <img id="cameopic" src="images/x23.jpg">
+            <img id="cameopic" src="images/humantorch.jpg">
+        
+          <p>There was also some cameo appearences as Deadpool variants which include: Blake Lively as Ladypool, Ryan and Blakes children as Kidpool and Babypool and Paul Mullin <em>(footballer from Wrexham A.F.C)</em> as Welshpool
+          <br> There was also a special appearence from Henry Cavill <em>(who played Superman in the DC Universe)</em> as the Wolverine variant 'Cavillrine'.</p>
+      </div>
+    </section>
+  </div>
   <section class="review">
     <h3>My review</h3>
     <div>

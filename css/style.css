@@ -1,0 +1,111 @@
+body{
+    background-image: url(../images/dpool-wolv-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:absolute;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(153, 9, 9);
+    text-align:center;
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+h3{
+    color: rgb(236, 23, 23);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    font-size: 25px;
+}
+
+p {
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: rgb(231, 231, 53);
+  font-size: 18px;
+}
+
+#p-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: orange;
+  font-size: 18px;
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+#dpool-shocked{
+  width: 200px;
+  height: 200px;
+}
+
+#dpool-logo{
+  width: 120px;
+  height: 120px;  
+}
+
+#cameopic{
+  width: 240px;
+  height: 180px;
+  display:inline-block;
+  z-index: 2;
+  margin: 20px;
+}
+
+#cast-cameos{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+#cast-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#pic-button{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  #cast-cameos{
+    gap: 100px;
+  }
+
+  #cameopic{
+    width: 200px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 767px){
+  #cast-cameos{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #cameopic{
+    width: 150px;
+    height: 100px;
+  }
+}
